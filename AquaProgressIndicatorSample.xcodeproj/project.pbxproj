@@ -13,10 +13,23 @@
 		8464616B25D558FE00246F64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8464616925D558FE00246F64 /* Main.storyboard */; };
 		8464616D25D5590000246F64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8464616C25D5590000246F64 /* Assets.xcassets */; };
 		8464617025D5590000246F64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8464616E25D5590000246F64 /* LaunchScreen.storyboard */; };
+		8464617925D55CE300246F64 /* Droplets.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 8464617825D55CE300246F64 /* Droplets.fsh */; };
+		8464618725D55CF900246F64 /* WaterNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8464617C25D55CF900246F64 /* WaterNode.swift */; };
+		8464618825D55CF900246F64 /* WaterJoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8464617D25D55CF900246F64 /* WaterJoint.swift */; };
+		8464618A25D55CF900246F64 /* Splashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8464618325D55CF900246F64 /* Splashable.swift */; };
+		8464618B25D55CF900246F64 /* Renderable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8464618425D55CF900246F64 /* Renderable.swift */; };
+		8464618C25D55CF900246F64 /* Updatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8464618525D55CF900246F64 /* Updatable.swift */; };
+		8464618D25D55CF900246F64 /* Droplet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8464618625D55CF900246F64 /* Droplet.swift */; };
+		8464619025D55D2D00246F64 /* AquaProgressIndicatorScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8464618F25D55D2D00246F64 /* AquaProgressIndicatorScene.swift */; };
+		847CE79C25D77C48003731F1 /* CausticDroplet.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 847CE79B25D77C48003731F1 /* CausticDroplet.fsh */; };
+		847CE7A225D83E4E003731F1 /* AquaProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847CE7A125D83E4E003731F1 /* AquaProgressIndicator.swift */; };
+		84A3DB6A25D724A7006B4114 /* NumTypes+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3DB6825D724A7006B4114 /* NumTypes+Random.swift */; };
+		84A3DB6B25D724A7006B4114 /* DispatchQueue+DispatchOnce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3DB6925D724A7006B4114 /* DispatchQueue+DispatchOnce.swift */; };
+		84D719A225E0334F0074AC11 /* DynamicWaterNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D719A025E0334F0074AC11 /* DynamicWaterNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8464616025D558FE00246F64 /* WaterActivityIndicatorSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterActivityIndicatorSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8464616025D558FE00246F64 /* AquaProgressIndicatorSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AquaProgressIndicatorSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8464616325D558FE00246F64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8464616525D558FE00246F64 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8464616725D558FE00246F64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +37,21 @@
 		8464616C25D5590000246F64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8464616F25D5590000246F64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8464617125D5590000246F64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8464617825D55CE300246F64 /* Droplets.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Droplets.fsh; sourceTree = "<group>"; };
+		8464617C25D55CF900246F64 /* WaterNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterNode.swift; sourceTree = "<group>"; };
+		8464617D25D55CF900246F64 /* WaterJoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterJoint.swift; sourceTree = "<group>"; };
+		8464618325D55CF900246F64 /* Splashable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Splashable.swift; sourceTree = "<group>"; };
+		8464618425D55CF900246F64 /* Renderable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Renderable.swift; sourceTree = "<group>"; };
+		8464618525D55CF900246F64 /* Updatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Updatable.swift; sourceTree = "<group>"; };
+		8464618625D55CF900246F64 /* Droplet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Droplet.swift; sourceTree = "<group>"; };
+		8464618F25D55D2D00246F64 /* AquaProgressIndicatorScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AquaProgressIndicatorScene.swift; sourceTree = "<group>"; };
+		847CE79B25D77C48003731F1 /* CausticDroplet.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = CausticDroplet.fsh; sourceTree = "<group>"; };
+		847CE7A125D83E4E003731F1 /* AquaProgressIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AquaProgressIndicator.swift; sourceTree = "<group>"; };
+		84A3DB5E25D72325006B4114 /* AquaProgressIndicatorSample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AquaProgressIndicatorSample-Bridging-Header.h"; sourceTree = "<group>"; };
+		84A3DB6825D724A7006B4114 /* NumTypes+Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NumTypes+Random.swift"; sourceTree = "<group>"; };
+		84A3DB6925D724A7006B4114 /* DispatchQueue+DispatchOnce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+DispatchOnce.swift"; sourceTree = "<group>"; };
+		84D719A025E0334F0074AC11 /* DynamicWaterNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicWaterNode.m; sourceTree = "<group>"; };
+		84D719A125E0334F0074AC11 /* DynamicWaterNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicWaterNode.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +68,7 @@
 		8464615725D558FE00246F64 = {
 			isa = PBXGroup;
 			children = (
-				8464616225D558FE00246F64 /* WaterActivityIndicatorSample */,
+				8464616225D558FE00246F64 /* AquaProgressIndicatorSample */,
 				8464616125D558FE00246F64 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +76,110 @@
 		8464616125D558FE00246F64 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8464616025D558FE00246F64 /* WaterActivityIndicatorSample.app */,
+				8464616025D558FE00246F64 /* AquaProgressIndicatorSample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8464616225D558FE00246F64 /* WaterActivityIndicatorSample */ = {
+		8464616225D558FE00246F64 /* AquaProgressIndicatorSample */ = {
 			isa = PBXGroup;
 			children = (
 				8464616325D558FE00246F64 /* AppDelegate.swift */,
 				8464616525D558FE00246F64 /* SceneDelegate.swift */,
 				8464616725D558FE00246F64 /* ViewController.swift */,
+				84D719A525E034320074AC11 /* Briging Header */,
+				84D7199A25E031470074AC11 /* AquaProgressIndicator */,
+				84D7199C25E031740074AC11 /* Resources */,
+				8464617125D5590000246F64 /* Info.plist */,
+			);
+			path = AquaProgressIndicatorSample;
+			sourceTree = "<group>";
+		};
+		8464617B25D55CF900246F64 /* Water Node */ = {
+			isa = PBXGroup;
+			children = (
+				8464617C25D55CF900246F64 /* WaterNode.swift */,
+				8464617D25D55CF900246F64 /* WaterJoint.swift */,
+				8464617E25D55CF900246F64 /* Objc */,
+				8464618225D55CF900246F64 /* Protocols */,
+				8464618625D55CF900246F64 /* Droplet.swift */,
+			);
+			path = "Water Node";
+			sourceTree = "<group>";
+		};
+		8464617E25D55CF900246F64 /* Objc */ = {
+			isa = PBXGroup;
+			children = (
+				84D719A125E0334F0074AC11 /* DynamicWaterNode.h */,
+				84D719A025E0334F0074AC11 /* DynamicWaterNode.m */,
+			);
+			path = Objc;
+			sourceTree = "<group>";
+		};
+		8464618225D55CF900246F64 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				8464618325D55CF900246F64 /* Splashable.swift */,
+				8464618425D55CF900246F64 /* Renderable.swift */,
+				8464618525D55CF900246F64 /* Updatable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		847CE79E25D80162003731F1 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				8464617825D55CE300246F64 /* Droplets.fsh */,
+				847CE79B25D77C48003731F1 /* CausticDroplet.fsh */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		84A3DB6725D724A7006B4114 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				84A3DB6825D724A7006B4114 /* NumTypes+Random.swift */,
+				84A3DB6925D724A7006B4114 /* DispatchQueue+DispatchOnce.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		84D7199A25E031470074AC11 /* AquaProgressIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				847CE7A125D83E4E003731F1 /* AquaProgressIndicator.swift */,
+				8464618F25D55D2D00246F64 /* AquaProgressIndicatorScene.swift */,
+				84A3DB6725D724A7006B4114 /* Extensions */,
+				8464617B25D55CF900246F64 /* Water Node */,
+				847CE79E25D80162003731F1 /* Shaders */,
+			);
+			path = AquaProgressIndicator;
+			sourceTree = "<group>";
+		};
+		84D7199C25E031740074AC11 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				8464616925D558FE00246F64 /* Main.storyboard */,
 				8464616C25D5590000246F64 /* Assets.xcassets */,
 				8464616E25D5590000246F64 /* LaunchScreen.storyboard */,
-				8464617125D5590000246F64 /* Info.plist */,
 			);
-			path = WaterActivityIndicatorSample;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		84D719A525E034320074AC11 /* Briging Header */ = {
+			isa = PBXGroup;
+			children = (
+				84A3DB5E25D72325006B4114 /* AquaProgressIndicatorSample-Bridging-Header.h */,
+			);
+			path = "Briging Header";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8464615F25D558FE00246F64 /* WaterActivityIndicatorSample */ = {
+		8464615F25D558FE00246F64 /* AquaProgressIndicatorSample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8464617425D5590000246F64 /* Build configuration list for PBXNativeTarget "WaterActivityIndicatorSample" */;
+			buildConfigurationList = 8464617425D5590000246F64 /* Build configuration list for PBXNativeTarget "AquaProgressIndicatorSample" */;
 			buildPhases = (
 				8464615C25D558FE00246F64 /* Sources */,
 				8464615D25D558FE00246F64 /* Frameworks */,
@@ -82,9 +189,9 @@
 			);
 			dependencies = (
 			);
-			name = WaterActivityIndicatorSample;
+			name = AquaProgressIndicatorSample;
 			productName = WaterActivityIndicatorSample;
-			productReference = 8464616025D558FE00246F64 /* WaterActivityIndicatorSample.app */;
+			productReference = 8464616025D558FE00246F64 /* AquaProgressIndicatorSample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +208,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8464615B25D558FE00246F64 /* Build configuration list for PBXProject "WaterActivityIndicatorSample" */;
+			buildConfigurationList = 8464615B25D558FE00246F64 /* Build configuration list for PBXProject "AquaProgressIndicatorSample" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +221,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8464615F25D558FE00246F64 /* WaterActivityIndicatorSample */,
+				8464615F25D558FE00246F64 /* AquaProgressIndicatorSample */,
 			);
 		};
 /* End PBXProject section */
@@ -124,6 +231,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8464617925D55CE300246F64 /* Droplets.fsh in Resources */,
+				847CE79C25D77C48003731F1 /* CausticDroplet.fsh in Resources */,
 				8464617025D5590000246F64 /* LaunchScreen.storyboard in Resources */,
 				8464616D25D5590000246F64 /* Assets.xcassets in Resources */,
 				8464616B25D558FE00246F64 /* Main.storyboard in Resources */,
@@ -137,9 +246,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8464618825D55CF900246F64 /* WaterJoint.swift in Sources */,
 				8464616825D558FE00246F64 /* ViewController.swift in Sources */,
+				8464619025D55D2D00246F64 /* AquaProgressIndicatorScene.swift in Sources */,
+				847CE7A225D83E4E003731F1 /* AquaProgressIndicator.swift in Sources */,
 				8464616425D558FE00246F64 /* AppDelegate.swift in Sources */,
+				84A3DB6A25D724A7006B4114 /* NumTypes+Random.swift in Sources */,
+				8464618C25D55CF900246F64 /* Updatable.swift in Sources */,
+				8464618D25D55CF900246F64 /* Droplet.swift in Sources */,
+				8464618A25D55CF900246F64 /* Splashable.swift in Sources */,
+				84D719A225E0334F0074AC11 /* DynamicWaterNode.m in Sources */,
 				8464616625D558FE00246F64 /* SceneDelegate.swift in Sources */,
+				8464618725D55CF900246F64 /* WaterNode.swift in Sources */,
+				84A3DB6B25D724A7006B4114 /* DispatchQueue+DispatchOnce.swift in Sources */,
+				8464618B25D55CF900246F64 /* Renderable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,13 +407,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = WaterActivityIndicatorSample/Info.plist;
+				INFOPLIST_FILE = AquaProgressIndicatorSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sample.WaterActivityIndicatorSample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.AquaProgressIndicatorSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AquaProgressIndicatorSample/Briging Header/AquaProgressIndicatorSample-Bridging-Header.h";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,13 +427,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = WaterActivityIndicatorSample/Info.plist;
+				INFOPLIST_FILE = AquaProgressIndicatorSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sample.WaterActivityIndicatorSample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.AquaProgressIndicatorSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AquaProgressIndicatorSample/Briging Header/AquaProgressIndicatorSample-Bridging-Header.h";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -320,7 +444,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8464615B25D558FE00246F64 /* Build configuration list for PBXProject "WaterActivityIndicatorSample" */ = {
+		8464615B25D558FE00246F64 /* Build configuration list for PBXProject "AquaProgressIndicatorSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8464617225D5590000246F64 /* Debug */,
@@ -329,7 +453,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8464617425D5590000246F64 /* Build configuration list for PBXNativeTarget "WaterActivityIndicatorSample" */ = {
+		8464617425D5590000246F64 /* Build configuration list for PBXNativeTarget "AquaProgressIndicatorSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8464617525D5590000246F64 /* Debug */,

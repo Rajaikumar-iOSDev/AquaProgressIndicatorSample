@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5hE-c1-ahM">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ep3-QP-Vb8">
+            <objects>
+                <viewController id="5hE-c1-ahM" customClass="ViewController" customModule="WaterActivityIndicatorSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="na4-lY-W6j" customClass="SKView">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="CT9-EY-6ek">
+                                <rect key="frame" x="241" y="45" width="118" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Zwz-UG-hYk"/>
+                                    <constraint firstAttribute="width" constant="114" id="b0R-wa-Gd3"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="levelSliderAction:" destination="5hE-c1-ahM" eventType="valueChanged" id="OS1-Uk-CUZ"/>
+                                </connections>
+                            </slider>
+                            <skView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yy9-rR-T64" customClass="AquaProgressIndicator" customModule="WaterActivityIndicatorSample" customModuleProvider="target">
+                                <rect key="frame" x="200" y="200" width="200" height="200"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="euU-Ya-Bp4"/>
+                                    <constraint firstAttribute="width" constant="200" id="oSd-Ta-5K4"/>
+                                </constraints>
+                            </skView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="jMe-QL-OF5"/>
+                        <color key="backgroundColor" red="0.66799789669999998" green="0.47512125970000002" blue="0.25860109930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="CT9-EY-6ek" firstAttribute="centerY" secondItem="na4-lY-W6j" secondAttribute="centerY" multiplier="0.2" id="IUZ-KH-22U"/>
+                            <constraint firstItem="Yy9-rR-T64" firstAttribute="centerY" secondItem="na4-lY-W6j" secondAttribute="centerY" id="JjG-2X-iHM"/>
+                            <constraint firstItem="CT9-EY-6ek" firstAttribute="centerX" secondItem="na4-lY-W6j" secondAttribute="centerX" id="hBk-cK-idl"/>
+                            <constraint firstItem="Yy9-rR-T64" firstAttribute="centerX" secondItem="na4-lY-W6j" secondAttribute="centerX" id="li8-8V-XcB"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="aquaProgressIndicator" destination="Yy9-rR-T64" id="zqP-Uf-nIU"/>
+                        <outlet property="levelSlider" destination="CT9-EY-6ek" id="GSg-86-1mV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ofo-94-Tm9" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-475" y="96"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,9 +1,4 @@
-//
-//  SceneDelegate.swift
-//  WaterActivityIndicatorSample
-//
-//  Created by Admin on 11/02/21.
-//
+
 
 import UIKit
 
