@@ -17,7 +17,7 @@ Step 2: Drag the AquaProgressIndicator folder from the sample project and drop t
 
 ![Screenshot 2021-02-20 at 8 05 44 PM](https://user-images.githubusercontent.com/22410262/108599598-1f39f200-73b8-11eb-9fe3-9a0a2bf650e9.png)
 
-   NOTE: Don't foget to check the "Copy item if needed" checkbox.
+   NOTE: Don't forget to check the "Copy items if needed" checkbox.
         
   ![Screenshot 2021-02-20 at 7 58 10 PM](https://user-images.githubusercontent.com/22410262/108599589-1812e400-73b8-11eb-831d-4468bf0927da.png)
        
