@@ -1,6 +1,6 @@
 # 🌊 AquaProgressIndicatorSample
 
-🌊 Aqua Progress indicator helps to keeps the user engaged and updated with the progress you are making.
+🌊 Aqua Progress indicator helps to keep the user engaged and updated with the progress you are making.
 
 ## 📺 Demo
 
@@ -21,7 +21,7 @@ Step 2: Drag the AquaProgressIndicator folder from the sample project and drop t
         
   ![Screenshot 2021-02-20 at 7 58 10 PM](https://user-images.githubusercontent.com/22410262/108599589-1812e400-73b8-11eb-831d-4468bf0927da.png)
        
-Step 3: Add a Objective C bridging header if you don't have one.
+Step 3: Add an Objective C bridging header if you don't have one and add the following in the bridging header file.
 
 ```
 #import "DynamicWaterNode.h"
