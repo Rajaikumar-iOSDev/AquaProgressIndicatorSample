@@ -15,7 +15,7 @@ Step 1: Download/Clone the AquaProgressIndicatorSample project.
 
 Step 2: Drag the AquaProgressIndicator folder from the sample project and drop that in your project.
 
-![Screenshot 2021-02-20 at 8 05 44 PM](https://user-images.githubusercontent.com/22410262/108599598-1f39f200-73b8-11eb-9fe3-9a0a2bf650e9.png)
+![Screenshot 2021-02-20 at 11 44 57 PM](https://user-images.githubusercontent.com/22410262/108604770-f1fc3c80-73d5-11eb-8bd0-643b2787b52f.png)
 
    NOTE: Don't forget to check the "Copy items if needed" checkbox.
         
