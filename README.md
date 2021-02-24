@@ -23,7 +23,7 @@ Step 2: Drag the AquaProgressIndicator folder from the sample project and drop t
        
 Step 3: Add an Objective C bridging header if you don't have one and add the following in the bridging header file.
 
-```
+```Objective-C
 #import "DynamicWaterNode.h"
 ```
 
@@ -39,15 +39,21 @@ Step 2: Change the class name in the Identity inspector to AquaProgressIndicator
 
 Step 3: Create an IBOutlet for the SKView from the storyboard.
 
-![Screenshot 2021-02-20 at 7 59 55 PM](https://user-images.githubusercontent.com/22410262/108599594-1cd79800-73b8-11eb-819b-ea71d35271fe.png)
+```Swift
+@IBOutlet weak var aquaProgressIndicator: AquaProgressIndicator!
+```
 
 Step 4: Call addAquaScene() using the outlet.
 
-![Screenshot 2021-02-20 at 8 01 00 PM](https://user-images.githubusercontent.com/22410262/108599595-1d702e80-73b8-11eb-979c-65b00b5c27ab.png)
+```Swift
+aquaProgressIndicator.addAquaScene()
+```
 
 Step 5: Call changeWaterLevel(to level:CGFloat) with the progress value using the outlet.
 
-![Screenshot 2021-02-20 at 8 01 25 PM](https://user-images.githubusercontent.com/22410262/108599596-1ea15b80-73b8-11eb-91d2-8bf9a09ddeb9.png)
+```Swift
+aquaProgressIndicator.changeWaterLevel(to: CGFloat(sender.value))
+```
 
 ## 🥞 Tech stack
 
